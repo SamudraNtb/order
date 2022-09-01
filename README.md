@@ -1,4 +1,5 @@
-# orderelif cmd == "order" or text.lower() == 'promo':                            	
+# order
+elif cmd == "order" or text.lower() == 'promo':                            	
                                 contact = cl.getProfile()
                                 mids = [contact.mid]
                                 tz = pytz.timezone("Asia/Jakarta")
